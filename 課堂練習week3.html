@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>課堂練習week3</title>
+
+</head>
+
+<body>
+
+<style type="text/css">
+	h1 {
+  color:red;
+}
+p {
+  color:darkblue;
+}
+
+.article-body {
+  background-color: lightgray;
+}
+
+#footer-p {
+  color: darkgray;
+}
+
+header p {
+  color: gray;
+
+}
+
+}
+</style>
+
+	<h1>練習網頁</h1>
+	<p>學習網頁製作</p>
+	
+<style type="text/css">
+	.box-a {
+	background-color: lightgray;
+	padding: 30px;
+	border: 3px solid black;
+	margin: 10px 20px;
+	width: 200px;
+	height: 150px;
+}	
+</style>	
+	
+	<div class="box-a">Box A</div>
+
+<style type="text/css">
+html {
+	background-color: #FFC8DC;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+}
+
+h1 {
+ display: block;
+ font-size: 2em;
+ margin-top: 0.67em;
+ margin-bottom: 0.67em;
+ margin-left: 0;
+ margin-right: 0;
+ font-weight: bold;
+}
+
+p {
+ display: block;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left: 0;
+ margin-right: 0; 
+}
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #617140;
+	font-size: 165%;
+}
+
+.header-title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+.header-slogan {
+	margin: 0;
+}
+
+.content-area {
+	display: flex;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+.sidebar {
+	width: 34%;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+.footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.nav {
+	margin-top: 20px;
+	position: relative;
+}
+
+.nav-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-sublist {
+	position: absolute;
+	background-color: #e5e9dc;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.nav-list-item-link {
+	display: block;
+	color: #617140;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #e5e9dc;
+	border-bottom: none;
+}
+
+
+
+.nav-list-item:hover > .nav-list-item-link {
+	background-color: #e5e9dc;
+}
+
+.nav-sublist .nav-list-item-link:hover {
+	background-color: #FFC8DC;
+	color: #fff;
+}
+
+.nav-list-item:hover .nav-sublist {
+	display: block;
+}
+
+.nav-list-item-link:hover {
+	background-color: #e5e9dc
+}
+
+
+
+
+
+</style>
+
+<div class="container">
+<header class="header">
+	<h1 class="header-title">Website Title</h1>
+	<p class="header-slogan">Website slogan included here.</p>
+	<nav class="nav">
+		<ul class="nav-list">
+			<li class="nav-list-item">
+				<a href="#" class="nav-list-item-link">Home</a>
+			</li>
+			<li class="nav-list-item">
+				<a href="#" class="nav-list-item-link">About</a>
+				<ul class="nav-sublist">
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 1</a></li>
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 2</a></li>
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 3</a></li>
+				</ul>
+			</li>
+			<li class="nav-list-item">
+				<a href="#" class="nav-list-item-link">Portfolio</a>
+				<ul class="nav-sublist">
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 1</a></li>
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 2</a></li>
+					<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 3</a></li>
+				</ul>
+			</li>
+			<li class="nav-list-item">
+				<a href="#" class="nav-list-item-link">Contact Us</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<div class="content-area">
+	<article class="main-area">
+		<p>This is the main area (or column). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</article>
+
+	<aside class="sidebar">
+		<p>This is the sidebar. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+	</aside>
+</div>
+	<footer class="footer">
+		<p>© 2018 - This is the footer.</p>
+	</footer>
+	
+
+</body>
+</html>
