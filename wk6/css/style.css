@@ -1,0 +1,27 @@
+.box1{
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.box2{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.box3{
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.box4{
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
