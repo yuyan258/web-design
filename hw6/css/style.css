@@ -1,0 +1,118 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+}
+
+.slogon1{
+	margin-top: 450px;
+	margin-left: 90px;
+	font-size: 45px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+.slogon2{
+	margin-top: 20px;
+	margin-left: 330px;
+	font-size: 45px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+.container{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background-color: #778899;
+	margin-top: 650px;
+}
+
+.prostheme{
+	margin-top: 40PX;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 30px;
+}
+
+.proscontenttop{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.proscontentdown{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.prosstatetheme{
+	text-align: center;
+}
+
+.prosstate{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.state{
+	width: 400px;
+}
+
+.soptheme{
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 30px;
+	margin-top: 80px;
+}
+
+.sopcontent img{
+	display: block;
+	margin: auto;
+	width: 1000px;
+	height: auto;
+	margin-top: 30px;
+}
+
+.img3 img{
+	width: 400px;
+}
+
+.qstate{
+	background-color: white;
+	width: 1070px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	padding: 20px;
+	border: 2px #4682b4 solid;
+}
+
+.qtheme{
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 30px;
+	margin-top: 80px;
+}
+
+.footer{
+	background-color: #b0c4de;
+	height: 30px;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 10px;
+	font-style: oblique;
+	font-family: Microsoft JhengHei;
+	line-height: 30px;
+}
