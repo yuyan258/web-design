@@ -161,16 +161,9 @@ function draw(){
   ctx.fill()
   ctx.stroke()
   //房子體
-  ctx.beginPath()
-  ctx.moveTo(50,350)
-  ctx.lineTo(350,350)
-  ctx.lineTo(350,150)
-  ctx.lineTo(50,150)
-  ctx.closePath()
   ctx.fillStyle="#ffe4c4"
-  ctx.fill()
-  ctx.strokeStyle="black"
-  ctx.stroke()
+  ctx.fillRect(50,150,300,200)
+  ctx.strokeRect(50,150,300,200)
   //屋頂
   ctx.beginPath()
   ctx.moveTo(30,170)
