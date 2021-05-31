@@ -1,0 +1,274 @@
+html,body{
+  width: 100%;
+  font-family: 'Noto Serif TC', serif;
+  background-color: #F2F2F0;
+  margin: 0;
+  padding: 0;
+  z-index: -10;
+  position: relative;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+}
+
+.logo{
+  width: 250px;
+  margin-left: 50px;
+}
+
+.logo img{
+	width: 250px;
+  float: left;
+}
+
+nav{
+  float: right;
+  margin-top: 50px;
+}
+
+ul{
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+nav li{
+  float: left;
+}
+/* 滑鼠浮動特效 */
+
+nav li:hover{ 
+  color: #F69F61;
+  text-decoration-line: none;
+}   
+
+nav a{
+	margin-right: 40px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 19px;
+  color: #7C6D67;
+  letter-spacing: 3px;
+}
+
+.slogon{
+  width: 500px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 750px;
+  z-index: -1;
+}
+
+.slogon1{
+  width: 100%;
+  font-size: 32px;
+  color: #594A47;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.slogon2{
+  width: 100%;
+  font-size: 20px;
+  color: #594A47;
+  margin-left: 260px;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.bannerimg img{
+  width: 100%;
+  position: relative;
+  z-index: -5;
+}
+
+.content{
+  width: 100%;
+  height: 1100px;
+  position: relative;
+  background-color: #F2F2F0;
+  margin-top: 80px;
+  left: 0;
+}
+
+.introup{
+  width: 100%;
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.uptheme{
+  font-size: 38px;
+  color: #594A47;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.upstate{
+  width: 100%;
+  width: 800px;
+  font-size: 18px;
+  color: #7C6D67;
+  margin-top: 40px;
+}
+
+.introdown{
+  width: 100%;
+}
+
+.line{
+  width: 2px;
+  height: 20px;
+  background-color: #F69F61;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+.theme{
+  font-size: 22px;
+  color: #594A47;
+  font-weight: bold;
+}
+
+.top{
+  margin-left: 400px;
+  width: 300px;
+  margin-top: 80px;
+}
+
+.toptheme{
+  display: flex;
+}
+
+.topstate{
+  font-size: 18px;
+  color: #7C6D67;
+  margin-top: 20px;
+}
+
+.mid{
+  margin-left: 850px;
+  width: 300px;
+  margin-top: 60px;  
+}
+
+.midtheme{
+  display: flex;
+}
+
+.midstate{
+  font-size: 18px;
+  color: #7C6D67;
+  margin-top: 20px;
+}
+
+.down{
+  margin-left: 400px;
+  width: 300px;
+  margin-top: 60px;  
+}
+
+.downtheme{
+  display: flex;
+}
+
+.downstate{
+  font-size: 18px;
+  color: #7C6D67;
+  margin-top: 20px;
+}
+
+.belief{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  margin-top: 150px;
+}
+
+.belieftheme{
+  font-size: 38px;
+  color: #594A47;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.beliefstate{
+  width: 800px;
+  font-size: 18px;
+  color: #7C6D67;
+  margin-top: 40px;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  font-family: 'Alegreya', serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: #594a47;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+  left: 0;
+}
+
+.nav-bar-left{
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.nav-bar-left img{
+  height: 200px;
+  width: 200px;
+
+}
+
+.nav-bar{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.nav-bar-right{
+  margin-right: 50px;
+}
+
+.list{
+  width: 100%;
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list-item-link{
+  margin-right: 40px;
+  color:  #7c6d67;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: bolder;
+  font-size: 18.4px;
+  text-decoration-line: none;
+  letter-spacing: 3px;
+}
+
+.list-item-link:hover{
+  color: #f69f61;
+  text-decoration-line: none;
+}
